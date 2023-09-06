@@ -47,3 +47,19 @@ systemctl start lightning.service
 ```
 lgtn keys show
 ```
+
+Статус:
+```
+systemctl status lightning
+```
+
+Логи ноды:
+```
+tail -f /var/log/lightning/output.log
+```
+
+Логи диагностики:
+```
+tail -f /var/log/lightning/diagnostic.log
+```
+
