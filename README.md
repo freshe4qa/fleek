@@ -41,12 +41,26 @@ curl https://get.fleek.network | bash
 systemctl start lightning.service
 ```
 
-Чтобы попасть в тестнет нужно заполнить форму в [Dicord-сервере](https://discord.gg/mhjuTW3w) в ветке [#access-form](https://discord.com/channels/965698989464887386/1148299261713338381) 
+Добавьте Fleek Network в качестве пользовательской сети в Metamask.
+Имя сети: Fleek Network
+RPC URL: https://rpc.testnet.fleek.network/rpc/v0
+ID сети: 59330
+Символ валюты: tFLK 
+
+Перейдите на страницу https://faucet.testnet.fleek.network/ и нажмите кнопку Connect wallet.
+Убедитесь, что в качестве выбранной сети выбрана сеть Fleek Network.
+
+Минтим токены. Эту транзакцию не нужно будет подписывать в кошельке.
+Подождите, пока баланс счета в кошельке увеличится.
+
+Нажмите кнопку Stake Testnet FLK, появится окно, скопируйте и вставьте в форму ключи. Введите свой IP в поле домена и нажмите кнопку stake.
 
 Посмотреть ключи:
 ```
 lgtn keys show
 ```
+
+Подтвердите транзакцию в Metamask.
 
 Статус:
 ```
