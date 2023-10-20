@@ -42,10 +42,14 @@ systemctl start lightning.service
 ```
 
 Добавьте Fleek Network в качестве пользовательской сети в Metamask.
-Имя сети: Fleek Network
-RPC URL: https://rpc.testnet.fleek.network/rpc/v0
-ID сети: 59330
-Символ валюты: tFLK 
+
+Имя сети: ```Fleek Network```
+
+RPC URL: ```https://rpc.testnet.fleek.network/rpc/v0```
+
+ID сети: ```59330```
+
+Символ валюты: ```tFLK ```
 
 Перейдите на страницу https://faucet.testnet.fleek.network/ и нажмите кнопку Connect wallet.
 Убедитесь, что в качестве выбранной сети выбрана сеть Fleek Network.
